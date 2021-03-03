@@ -1,5 +1,5 @@
 {% set name = "pyequib" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyequib-{{ version }}.tar.gz
-  sha256: dab3eb4e99d85768673ed30ac90f0dae809bbb29de78cc5308f74cc1716798a9
+  sha256: 187dd4d4c1183edbd2cc40954fb6e71fa9d187d937f400f0fa29335cc5237b2f
 
 build:
   number: 0
@@ -20,12 +20,12 @@ requirements:
     - python >=3.8
     - numpy >=1.17
     - scipy >=1.2
-    - atomneb >=0.2
+    - atomneb >=0.3
   run:
     - python >=3.8
     - numpy >=1.17
     - scipy >=1.2
-    - atomneb >=0.2
+    - atomneb >=0.3
 
 test:
   imports:
