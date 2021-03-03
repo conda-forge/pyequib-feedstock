@@ -20,12 +20,12 @@ requirements:
     - python >=3.8
     - numpy >=1.17
     - scipy >=1.2
-    - atomneb >=0.3.3
+    - atomneb >=0.2
   run:
     - python >=3.8
     - numpy >=1.17
     - scipy >=1.2
-    - atomneb >=0.3.3
+    - atomneb >=0.2
 
 test:
   imports:
