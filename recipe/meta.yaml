@@ -1,5 +1,5 @@
 {% set name = "pyequib" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyequib-{{ version }}.tar.gz
-  sha256: 187dd4d4c1183edbd2cc40954fb6e71fa9d187d937f400f0fa29335cc5237b2f
+  sha256: 3e645c8681442d1c4972f6e4ddc6eb7b9d8e552d8b75b1914cb33cc8f206bfe3
 
 build:
   number: 0
